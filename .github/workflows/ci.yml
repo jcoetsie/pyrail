@@ -25,12 +25,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       
-      - name: Install CodeRabbit
-        run: pip install coderabbit
-
-      - name: Run CodeRabbit
-        run: coderabbit run
-      
       - name: Run tests
         run: python -m unittest discover -s tests
 
