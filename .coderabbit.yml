@@ -1,7 +1,0 @@
-# filepath: .coderabbit.yml
-version: 1
-rules:
-  - name: "Python Best Practices"
-    description: "Ensure Python code follows best practices"
-    language: "python"
-    severity: "error"
